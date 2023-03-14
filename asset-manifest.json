@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/postexpress/static/css/main.1b27133d.css",
-    "main.js": "/postexpress/static/js/main.51452b5a.js",
+    "main.css": "/postexpress/static/css/main.0be85acb.css",
+    "main.js": "/postexpress/static/js/main.98933733.js",
     "static/media/chart2.png": "/postexpress/static/media/chart2.a61b61df090f871ce5f6.png",
     "index.html": "/postexpress/index.html",
-    "main.1b27133d.css.map": "/postexpress/static/css/main.1b27133d.css.map",
-    "main.51452b5a.js.map": "/postexpress/static/js/main.51452b5a.js.map"
+    "main.0be85acb.css.map": "/postexpress/static/css/main.0be85acb.css.map",
+    "main.98933733.js.map": "/postexpress/static/js/main.98933733.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b27133d.css",
-    "static/js/main.51452b5a.js"
+    "static/css/main.0be85acb.css",
+    "static/js/main.98933733.js"
   ]
 }
