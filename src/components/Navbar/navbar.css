@@ -8,14 +8,14 @@
 }
 
 .postexpress__navbar-menu {
-  padding: .65rem 0;
+  padding: 0.65rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .postexpress__navbar-menu_logo img {
-  width: 200px;
+  width: 180px;
 }
 
 .postexpress__navbar-menu_links {

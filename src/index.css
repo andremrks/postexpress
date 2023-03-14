@@ -6,11 +6,12 @@
   box-sizing: border-box;
   text-decoration: none;
   font-family: "Lexend Deca", sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
   background-color: var(--color-white);
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 :root {
