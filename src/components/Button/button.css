@@ -1,0 +1,17 @@
+.postexpress__button {
+  cursor: pointer;
+  border: 2px solid var(--color-orange-strong);
+  outline: none;
+  background: var(--color-orange-strong);
+  color: var(--color-white);
+  font-size: 1.2rem;
+  padding: 1rem;
+  border-radius: 2px;
+  transition: var(--transition);
+}
+
+.postexpress__button:hover {
+  background: var(--color-white);
+  color: var(--color-orange-strong);
+  border: 2px solid var(--color-orange-strong);
+}

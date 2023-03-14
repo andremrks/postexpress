@@ -1,0 +1,49 @@
+.postexpress__navbar {
+  padding: 0 12rem;
+  position: sticky;
+  top: 0;
+  background-color: var(--color-white);
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.postexpress__navbar-menu {
+  padding: .65rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.postexpress__navbar-menu_logo img {
+  width: 200px;
+}
+
+.postexpress__navbar-menu_links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.postexpress__navbar-menu_links a,
+.postexpress__navbar-container_links a {
+  color: var(--color-blue);
+  font-weight: 500;
+  margin-right: 2rem;
+  transition: var(--transition);
+}
+
+.postexpress__navbar-menu_links a:hover,
+.postexpress__navbar-container_links a:hover,
+.postexpress__navbar-toggle_icon:hover {
+  color: var(--color-orange-strong);
+}
+
+.postexpress__navbar-toggle {
+  display: none;
+}
+
+.postexpress__navbar-toggle_icon {
+  cursor: pointer;
+  color: var(--color-blue);
+  font-size: 25px;
+}
