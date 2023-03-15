@@ -1,4 +1,4 @@
-import { Beneficios, Depoimentos, Hero, Navbar, Sobre } from "./components";
+import { Porque, Depoimentos, Hero, Navbar, Sobre, Beneficios } from "./components";
 
 const App = () => {
   return (
@@ -6,8 +6,9 @@ const App = () => {
       <Navbar />
       <Hero />
       <Sobre />
-      <Beneficios />
+      <Porque />
       <Depoimentos />
+      <Beneficios />
     </>
   );
 };

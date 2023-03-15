@@ -1,39 +1,67 @@
-.postexpress__beneficios {
-  margin-top: 2rem;
-  background: var(--color-beige);
-  height: 70vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .postexpress__beneficios-container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 12rem;
+  height: 80vh;
+}
+
+.postexpress__beneficios-container > h1 {
+  color: var(--color-blue);
+  font-size: 2.4rem;
+  margin: 5rem 0;
+  text-align: center;
+}
+
+.postexpress__beneficios-cardsContainer {
+  display: flex;
   justify-content: center;
   align-items: center;
-  padding: 3rem 12rem 0 12rem;
 }
 
-.postexpress__beneficios-image img {
-  width: 550px;
-}
-
-.postexpress__beneficios-text {
-    margin-left: 1.5rem;
+.postexpress__beneficios-card {
+  width: 300px;
+  height: 350px;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid var(--color-orange);
+  margin-right: 1rem;
 }
 
-.postexpress__beneficios-text h1 {
-  font-size: 2.1rem;
+.postexpress__beneficios-card_image {
+  width: 100%;
+  overflow: hidden;
+}
+
+.postexpress__beneficios-card_image img {
+  width: 100%;
+}
+
+.postexpress__beneficios-card_content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem;
+}
+
+.postexpress__beneficios-card_stars {
+  align-self: flex-end;
+}
+
+.postexpress__beneficios-card_text h1 {
+  margin-top: 1rem;
   color: var(--color-blue);
-  margin-bottom: 3rem;
+  font-size: 1.2rem;
 }
 
-.postexpress__beneficios-text_listItem {
+.postexpress__beneficios-card_text p {
+  margin-top: 1rem;
   color: var(--color-black);
-  font-size: 0.9rem;
   font-weight: 300;
-  list-style-type: circle;
-  line-height: 2.2rem;
+  font-size: 0.9rem;
+}
+
+.postexpress__beneficios-card_button {
+  margin: 3rem 0;
 }

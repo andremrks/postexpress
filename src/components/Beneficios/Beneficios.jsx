@@ -1,47 +1,92 @@
 import "./beneficios.css";
 
-import Fade from "react-reveal/Fade";
+import Button from "../Button/Button";
 
-import beneficios from "../../assets/beneficios.png";
+import {AiFillStar} from 'react-icons/ai'
+
+import logo from '../../assets/logoImg.png'
 
 const Beneficios = () => {
   return (
-    <section className="postexpress__beneficios">
+    <section id="beneficios" className="postexpress__beneficios">
       <div className="postexpress__beneficios-container">
-        <div className="postexpress__beneficios-image">
-          <img src={beneficios} alt="Social Media Imagem" />
+        <h1>Benefícios de Contratar o PostExpress</h1>
+        <div className="postexpress__beneficios-cardsContainer">
+          <div className="postexpress__beneficios-card">
+            <div className="postexpress__beneficios-card_image">
+              <img src={logo} style={{width:'150px'}} alt="" />
+            </div>
+            <div className="postexpress__beneficios-card_content">
+              <div className="postexpress__beneficios-card_stars">
+                <AiFillStar style={{color:'var(--color-orange)'}} />
+                <AiFillStar style={{color:'var(--color-orange)'}} />
+                <AiFillStar style={{color:'var(--color-orange)'}} />
+                <AiFillStar style={{color:'var(--color-orange)'}} />
+                <AiFillStar style={{color:'var(--color-orange)'}} />
+              </div>
+              <div className="postexpress__beneficios-card_text">
+                <h1>Economize Tempo</h1>
+                <p>Deixe que nós cuidemos da sua presença nas redes sociais, enquanto você se concentra em gerenciar o seu negócio.</p>
+              </div>
+            </div>
+          </div>
+          <div className="postexpress__beneficios-card">
+            <div className="postexpress__beneficios-card_image">
+              <img src={logo} style={{width:'150px'}} alt="" />
+            </div>
+            <div className="postexpress__beneficios-card_content">
+              <div className="postexpress__beneficios-card_stars">
+                <AiFillStar style={{color:'var(--color-orange)'}} />
+                <AiFillStar style={{color:'var(--color-orange)'}} />
+                <AiFillStar style={{color:'var(--color-orange)'}} />
+                <AiFillStar style={{color:'var(--color-orange)'}} />
+                <AiFillStar style={{color:'var(--color-orange)'}} />
+              </div>
+              <div className="postexpress__beneficios-card_text">
+                <h1>Destaque-se</h1>
+                <p>Destaque-se da concorrência com uma presença forte e consistente nas redes sociais.</p>
+              </div>
+            </div>
+          </div>
+          <div className="postexpress__beneficios-card">
+            <div className="postexpress__beneficios-card_image">
+              <img src={logo} style={{width:'150px'}} alt="" />
+            </div>
+            <div className="postexpress__beneficios-card_content">
+              <div className="postexpress__beneficios-card_stars">
+                <AiFillStar style={{color:'var(--color-orange)'}} />
+                <AiFillStar style={{color:'var(--color-orange)'}} />
+                <AiFillStar style={{color:'var(--color-orange)'}} />
+                <AiFillStar style={{color:'var(--color-orange)'}} />
+                <AiFillStar style={{color:'var(--color-orange)'}} />
+              </div>
+              <div className="postexpress__beneficios-card_text">
+                <h1>Aumento de Autoridade</h1>
+                <p>Fortaleça a sua marca e ganhe mais autoridade online com um conteúdo de alta qualidade.</p>
+              </div>
+            </div>
+          </div>
+          <div className="postexpress__beneficios-card">
+            <div className="postexpress__beneficios-card_image">
+              <img src={logo} style={{width:'150px'}} alt="" />
+            </div>
+            <div className="postexpress__beneficios-card_content">
+              <div className="postexpress__beneficios-card_stars">
+                <AiFillStar style={{color:'var(--color-orange)'}} />
+                <AiFillStar style={{color:'var(--color-orange)'}} />
+                <AiFillStar style={{color:'var(--color-orange)'}} />
+                <AiFillStar style={{color:'var(--color-orange)'}} />
+                <AiFillStar style={{color:'var(--color-orange)'}} />
+              </div>
+              <div className="postexpress__beneficios-card_text">
+                <h1>Aumento de Vendas</h1>
+                <p>Aumente o engajamento e a conversão do seu público, gerando mais vendas e crescimento para o seu negócio</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className="postexpress__beneficios-text">
-          <Fade top>
-            <h1>Crie posts profissionais em minutos com o PostExpress</h1>
-          </Fade>
-          <Fade left cascade>
-            <ul className="postexpress__beneficios-text_list">
-              <li className="postexpress__beneficios-text_listItem">
-                Esqueça a falta de tempo, deixe o PostExpress cuidar disso!
-              </li>
-              <li className="postexpress__beneficios-text_listItem">
-                Destaque-se nas redes sociais sem esforço.
-              </li>
-              <li className="postexpress__beneficios-text_listItem">
-                Transforme sua presença digital e alcance mais pessoas com o
-                PostExpress.
-              </li>
-              <li className="postexpress__beneficios-text_listItem">
-                Não perca mais oportunidades de crescer nas redes sociais.
-              </li>
-              <li className="postexpress__beneficios-text_listItem">
-                Criar posts incríveis é fácil e acessível.
-              </li>
-              <li className="postexpress__beneficios-text_listItem">
-                Mantenha sua presença nas redes sociais forte e consistente.
-              </li>
-              <li className="postexpress__beneficios-text_listItem">
-                Não deixe seus concorrentes superarem você nas redes sociais, se
-                destaque!
-              </li>
-            </ul>
-          </Fade>
+        <div className="postexpress__beneficios-card_button">
+          <Button text='Comece Agora!' />
         </div>
       </div>
     </section>
