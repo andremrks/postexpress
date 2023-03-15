@@ -1,14 +1,19 @@
 {
   "files": {
-    "main.css": "/postexpress/static/css/main.0be85acb.css",
-    "main.js": "/postexpress/static/js/main.98933733.js",
+    "main.css": "/postexpress/static/css/main.7557a222.css",
+    "main.js": "/postexpress/static/js/main.276eb2ee.js",
+    "static/media/depoimento1.png": "/postexpress/static/media/depoimento1.4c5945cf925e7642c50d.png",
+    "static/media/depoimento3.png": "/postexpress/static/media/depoimento3.17766f26b4e1c2877dfb.png",
+    "static/media/depoimento4.png": "/postexpress/static/media/depoimento4.4f6bc4fbe73444cc223b.png",
+    "static/media/depoimento2.png": "/postexpress/static/media/depoimento2.59e5a6392fa3258ae560.png",
     "static/media/chart2.png": "/postexpress/static/media/chart2.a61b61df090f871ce5f6.png",
+    "static/media/beneficios.png": "/postexpress/static/media/beneficios.39bc2b8e6f6eb96a162b.png",
     "index.html": "/postexpress/index.html",
-    "main.0be85acb.css.map": "/postexpress/static/css/main.0be85acb.css.map",
-    "main.98933733.js.map": "/postexpress/static/js/main.98933733.js.map"
+    "main.7557a222.css.map": "/postexpress/static/css/main.7557a222.css.map",
+    "main.276eb2ee.js.map": "/postexpress/static/js/main.276eb2ee.js.map"
   },
   "entrypoints": [
-    "static/css/main.0be85acb.css",
-    "static/js/main.98933733.js"
+    "static/css/main.7557a222.css",
+    "static/js/main.276eb2ee.js"
   ]
 }
