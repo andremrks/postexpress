@@ -1,9 +1,15 @@
-.postexpress__sobre,
-.postexpress__cta {
-  height: 50vh;
+.postexpress__sobre {
+  position: relative;
 }
 
-.postexpress__sobre {
+.postexpress__sobre::before {
+  padding: 0;
+  content: '';
+  position: absolute;
+  top: 65%;
+  left: 0;
+  height: 5px;
+  width: 100%;
   border-bottom: 5px solid var(--color-orange-strong);
 }
 
@@ -37,6 +43,7 @@
 }
 
 .postexpress__cta {
+  margin-top: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -76,6 +83,7 @@
 }
 
 .postexpress__cta-text_title {
+  text-shadow: 1px 1px var(--color-white);
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
 }
@@ -91,11 +99,15 @@
 
 .postexpress__cta-text_valor p:nth-child(1),
 .postexpress__cta-text_valor p:nth-child(3) {
+  font-weight: 600;
   font-size: 1rem;
+  text-shadow: 1px 0 var(--color-white);
 }
 
 .postexpress__cta-text_valor p:nth-child(2) {
+  font-weight: 700;
   font-size: 4rem;
+  text-shadow: 1px 0 var(--color-white);
 }
 
 .postexpress__cta-button {

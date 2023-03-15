@@ -1,0 +1,39 @@
+.postexpress__beneficios {
+  margin-top: 2rem;
+  background: var(--color-beige);
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.postexpress__beneficios-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 12rem 0 12rem;
+}
+
+.postexpress__beneficios-image img {
+  width: 550px;
+}
+
+.postexpress__beneficios-text {
+    margin-left: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.postexpress__beneficios-text h1 {
+  font-size: 2.1rem;
+  color: var(--color-blue);
+  margin-bottom: 3rem;
+}
+
+.postexpress__beneficios-text_listItem {
+  color: var(--color-black);
+  font-size: 0.9rem;
+  font-weight: 300;
+  list-style-type: circle;
+  line-height: 2.2rem;
+}

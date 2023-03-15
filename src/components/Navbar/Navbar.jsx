@@ -14,9 +14,6 @@ const Menu = () => (
       <a href="#sobre">Sobre Nós</a>
     </p>
     <p>
-      <a href="#servicos">Serviços</a>
-    </p>
-    <p>
       <a href="#beneficios">Benefícios</a>
     </p>
     <p>
