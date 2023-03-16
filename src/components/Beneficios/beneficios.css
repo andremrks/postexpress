@@ -20,6 +20,7 @@
 }
 
 .postexpress__beneficios-card {
+  cursor: pointer;
   width: 300px;
   height: 350px;
   display: flex;
@@ -29,6 +30,10 @@
   box-shadow: 5px 1px 15px rgba(0, 0, 0, 0.12);
   margin-right: 1rem;
   overflow: hidden;
+  transition: var(--transition);
+}
+.postexpress__beneficios-card:hover{
+  scale: 1.02;
 }
 
 .postexpress__beneficios-card:last-child {

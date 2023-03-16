@@ -16,8 +16,8 @@ const App = () => {
       <Hero />
       <Sobre />
       <Porque />
-      <Depoimentos />
       <Beneficios />
+      <Depoimentos />
       <Planos />
       <Contato />
     </>

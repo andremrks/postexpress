@@ -15,3 +15,8 @@
   color: var(--color-orange-strong);
   border: 2px solid var(--color-orange-strong);
 }
+
+.postexpress__planos-boxes a:not(.active) .postexpress__button:hover {
+  background: var(--color-orange-strong);
+  color: var(--color-white);
+}
