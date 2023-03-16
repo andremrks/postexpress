@@ -1,4 +1,13 @@
-import { Porque, Depoimentos, Hero, Navbar, Sobre, Beneficios } from "./components";
+import {
+  Porque,
+  Depoimentos,
+  Hero,
+  Navbar,
+  Sobre,
+  Beneficios,
+  Planos,
+  Contato,
+} from "./components";
 
 const App = () => {
   return (
@@ -9,6 +18,8 @@ const App = () => {
       <Porque />
       <Depoimentos />
       <Beneficios />
+      <Planos />
+      <Contato />
     </>
   );
 };

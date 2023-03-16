@@ -5,3 +5,5 @@ export { default as Sobre } from "./Sobre/Sobre";
 export { default as Porque } from "./Porque/Porque";
 export { default as Depoimentos } from "./Depoimentos/Depoimentos";
 export { default as Beneficios } from "./Beneficios/Beneficios";
+export { default as Planos } from "./Planos/Planos";
+export { default as Contato } from "./Contato/Contato";

@@ -17,10 +17,22 @@
 }
 
 .postexpress__depoimentos-clientes {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.postexpress__depoimentos-clientes::before {
+  position: absolute;
+  content: "";
+  width: 90%;
+  height: 90%;
+  background-color: var(--color-beige);
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  -webkit-animation: vibrate-1 3s linear infinite both;
+  animation: vibrate-1 3s linear infinite both;
 }
 
 .postexpress__depoimentos-clientes:first-child {
@@ -35,7 +47,7 @@
   align-items: center;
   border-radius: 5px;
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.15);
-  background: transparent;
+  background-color: var(--color-white);
   width: 600px;
   height: 250px;
   overflow: hidden;
@@ -68,6 +80,7 @@
 
 .postexpress__depoimento-image img {
   position: relative;
+  object-fit: contain;
   width: 100%;
 }
 
@@ -116,4 +129,57 @@
 
 .postexpress__depoimento:nth-child(even) {
   align-self: flex-end;
+}
+
+@-webkit-keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-14px, 14px);
+    transform: translate(-14px, 14px);
+  }
+  40% {
+    -webkit-transform: translate(-14px, -14px);
+    transform: translate(-14px, -14px);
+  }
+  60% {
+    -webkit-transform: translate(14px, 14px);
+    transform: translate(14px, 14px);
+  }
+  80% {
+    -webkit-transform: translate(14px, -14px);
+    transform: translate(14px, -14px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}
+@keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-10px, 10px);
+    transform: translate(-10px, 10px);
+  }
+  40% {
+    -webkit-transform: translate(-10px, -10px);
+    transform: translate(-10px, -10px);
+  }
+  60% {
+    -webkit-transform: translate(10px, 10px);
+    transform: translate(10px, 10px);
+  }
+  80% {
+    -webkit-transform: translate(10px, -10px);
+    transform: translate(10px, -10px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
 }

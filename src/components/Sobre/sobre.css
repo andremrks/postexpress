@@ -1,5 +1,6 @@
 .postexpress__sobre {
   position: relative;
+  scroll-margin: 5rem;
 }
 
 .postexpress__sobre::before {

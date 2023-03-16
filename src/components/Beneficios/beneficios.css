@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   padding: 0 12rem;
-  height: 80vh;
+  height: 100vh;
 }
 
 .postexpress__beneficios-container > h1 {
@@ -25,8 +25,14 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  border: 1px solid var(--color-orange);
+  border-radius: 10px;
+  box-shadow: 5px 1px 15px rgba(0, 0, 0, 0.12);
   margin-right: 1rem;
+  overflow: hidden;
+}
+
+.postexpress__beneficios-card:last-child {
+  margin-right: 0;
 }
 
 .postexpress__beneficios-card_image {
@@ -64,4 +70,6 @@
 
 .postexpress__beneficios-card_button {
   margin: 3rem 0;
+  -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+  animation: heartbeat 1.5s ease-in-out infinite both;
 }
