@@ -8,10 +8,9 @@ const Sobre = () => {
         <div className="postexpress__sobre-text">
           <h1>O que é a PostExpress?</h1>
           <p>
-            Somos uma plataforma, onde você pode criar posts incríveis em
-            minutos, com nossos recursos intuitivos e fáceis de usar. Sem
+            Somos uma plataforma, onde você pode criar posts incríveis sem
             precisar de conhecimentos técnicos ou gastar uma fortuna com
-            designers, você terá acesso a uma ampla variedade de modelos e
+            designers. Você terá acesso a uma ampla variedade de modelos e
             elementos gráficos para criar posts personalizados e profissionais.
           </p>
           <p>
@@ -36,7 +35,7 @@ const Sobre = () => {
             </div>
           </div>
           <div className="postexpress__cta-button">
-            <Button text='Quero Contratar' />
+            <Button text="Quero Contratar" />
           </div>
         </div>
       </section>

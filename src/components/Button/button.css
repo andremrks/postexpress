@@ -16,7 +16,15 @@
   border: 2px solid var(--color-orange-strong);
 }
 
-.postexpress__planos-boxes a:not(.active) .postexpress__button:hover {
+.postexpress__planos-boxes > a:not(.active) .postexpress__button:hover {
+  cursor: default;
   background: var(--color-orange-strong);
   color: var(--color-white);
+}
+
+@media screen and (max-width: 800px) {
+  .postexpress__button {
+    font-size: 0.9rem;
+    padding: 0.6rem;
+  }
 }

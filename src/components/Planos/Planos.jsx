@@ -30,10 +30,13 @@ const Planos = () => {
                 <p>,90</p>
               </div>
               <div className="postexpress__plano-buttonBox">
-                <Button text="Comece Agora!" />
+                <Button text="Quero Contratar!" />
               </div>
               <div className="postexpress__plano-text">
-                <p>10 artes / posts mensais enviadas para clientes postar.</p>
+                <p>
+                  10 artes / posts mensais enviadas para <strong>VOCÊ</strong>{" "}
+                  postar quando bem entender.
+                </p>
               </div>
             </div>
           </a>
@@ -53,12 +56,12 @@ const Planos = () => {
                 <p>,00</p>
               </div>
               <div className="postexpress__plano-buttonBox">
-                <Button text="Comece Agora!" />
+                <Button text="Quero Contratar!" />
               </div>
               <div className="postexpress__plano-text">
                 <p>
                   Artes para todos os dias do úteis do mês com agendamento
-                  automatico + bonus de template.
+                  automatico + bonus de template customizável.
                 </p>
               </div>
             </div>
@@ -79,12 +82,13 @@ const Planos = () => {
                 <p>,00</p>
               </div>
               <div className="postexpress__plano-buttonBox">
-                <Button text="Comece Agora!" />
+                <Button text="Quero Contratar!" />
               </div>
               <div className="postexpress__plano-text">
                 <p>
                   Tudo do Plano Pró + Agenda de sugestões de posts de acordo com
-                  o segmento que o cliente atua + bonus de template.
+                  o segmento que o cliente atua + bonus de template
+                  customizável.
                 </p>
               </div>
             </div>

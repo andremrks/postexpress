@@ -47,3 +47,65 @@
   color: var(--color-blue);
   font-size: 25px;
 }
+
+@media screen and (max-width: 1224px) {
+  .postexpress__navbar {
+    padding: 0 10rem;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .postexpress__navbar {
+    padding: 0 3rem;
+  }
+
+  .postexpress__navbar-menu_links a,
+  .postexpress__navbar-container_links a {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .postexpress__navbar {
+    padding: 0 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .postexpress__navbar-menu_links {
+    display: none;
+  }
+
+  .postexpress__navbar-toggle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+  }
+
+  .postexpress__navbar-container_links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    background-color: var(--color-white);
+    border-radius: 5px;
+    right: 5px;
+    width: 120px;
+    height: 190px;
+    padding: 1rem 0.5rem;
+  }
+
+  .postexpress__navbar-menu_links a,
+  .postexpress__navbar-container_links a {
+    display: flex;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .postexpress__navbar-menu_logo img {
+    width: 150px;
+  }
+}

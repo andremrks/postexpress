@@ -1,7 +1,11 @@
 import "./button.css";
 
 const Button = ({ text }) => {
-  return <button className="postexpress__button">{text}</button>;
+  return (
+    <a href="#contato">
+      <button className="postexpress__button">{text}</button>
+    </a>
+  );
 };
 
 export default Button;

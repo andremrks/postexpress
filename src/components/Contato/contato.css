@@ -1,0 +1,71 @@
+.postexpress__contato {
+  scroll-margin: 8rem;
+}
+
+.postexpress__contato-container {
+  padding: 0 12rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 6rem 0;
+}
+
+.postexpress__contato-container h1 {
+  color: var(--color-blue);
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+}
+
+.postexpress__contato-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.postexpress__contato-form input,
+.postexpress__contato-form textarea {
+  color: var(--color-black);
+  width: 500px;
+  border: 2px solid var(--color-blue);
+  border-radius: 5px;
+  outline: none;
+  padding: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.postexpress__contato-form textarea {
+  resize: none;
+  height: 150px;
+}
+
+.postexpress__contato-form button {
+  cursor: pointer;
+  border: 2px solid var(--color-orange-strong);
+  outline: none;
+  background: var(--color-orange-strong);
+  color: var(--color-white);
+  padding: 0.5rem;
+  border-radius: 2px;
+  transition: var(--transition);
+}
+
+.postexpress__contato-form button:hover {
+  background: var(--color-white);
+  color: var(--color-orange-strong);
+  border: 2px solid var(--color-orange-strong);
+}
+
+@media screen and (max-width: 550px) {
+  .postexpress__contato-container {
+    padding: 0 1.5rem;
+    margin: 3rem 0;
+  }
+  .postexpress__contato-container h1 {
+    font-size: 2rem;
+  }
+
+  .postexpress__contato-form input,
+  .postexpress__contato-form textarea {
+    width: 320px;
+  }
+}

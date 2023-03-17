@@ -13,7 +13,7 @@ const Porque = () => {
         </div>
         <div className="postexpress__porque-text">
           <Fade top>
-            <h1>Crie posts profissionais em minutos com o PostExpress</h1>
+            <h1>Crie posts profissionais com o PostExpress</h1>
           </Fade>
           <Fade left cascade>
             <ul className="postexpress__porque-text_list">

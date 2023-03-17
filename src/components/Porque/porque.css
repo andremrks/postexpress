@@ -19,7 +19,7 @@
 }
 
 .postexpress__porque-text {
-    margin-left: 1.5rem;
+  margin-left: 1.5rem;
   display: flex;
   flex-direction: column;
 }
@@ -36,4 +36,52 @@
   font-weight: 300;
   list-style-type: circle;
   line-height: 2.2rem;
+}
+
+@media screen and (max-width: 1224px) {
+  .postexpress__porque-container {
+    padding: 0 6rem;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .postexpress__porque-container {
+    padding: 0 2rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .postexpress__porque-container {
+    flex-direction: column;
+  }
+  .postexpress__porque-image img {
+    width: 500px;
+  }
+  .postexpress__porque-text h1 {
+    font-size: 1.8rem;
+    margin: 2rem 0;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .postexpress__porque-container {
+    padding: 0 1.5rem;
+  }
+
+  .postexpress__porque-image img {
+    width: 350px;
+  }
+
+  .postexpress__porque-text {
+    margin-left: 0.5rem;
+  }
+
+  .postexpress__porque-text h1 {
+    font-size: 1.2rem;
+  }
+
+  .postexpress__porque-text_listItem {
+    line-height: 1.5rem;
+  }
 }

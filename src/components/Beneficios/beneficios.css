@@ -32,7 +32,7 @@
   overflow: hidden;
   transition: var(--transition);
 }
-.postexpress__beneficios-card:hover{
+.postexpress__beneficios-card:hover {
   scale: 1.02;
 }
 
@@ -43,6 +43,8 @@
 .postexpress__beneficios-card_image {
   width: 100%;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
 .postexpress__beneficios-card_image img {
@@ -77,4 +79,59 @@
   margin: 3rem 0;
   -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
   animation: heartbeat 1.5s ease-in-out infinite both;
+}
+
+@media screen and (max-width: 1224px) {
+  .postexpress__beneficios-container {
+    padding: 0 10rem;
+  }
+
+  .postexpress__beneficios-cardsContainer {
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .postexpress__beneficios-container {
+    padding: 0 5rem;
+  }
+  .postexpress__beneficios-card {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .postexpress__beneficios-container {
+    padding: 0 3rem;
+  }
+  .postexpress__beneficios-container > h1 {
+    font-size: 2rem;
+    margin: 2rem 0;
+  }
+  .postexpress__beneficios-card {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .postexpress__beneficios-container {
+    padding: 0 1.5rem;
+  }
+
+  .postexpress__beneficios-container > h1 {
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+  }
+
+  .postexpress__beneficios-card {
+    cursor: pointer;
+    width: 250px;
+    height: 300px;
+    margin-right: 0;
+  }
+  .postexpress__beneficios-card_image img {
+    width: 100%;
+    object-fit: cover;
+  }
 }

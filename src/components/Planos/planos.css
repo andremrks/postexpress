@@ -23,9 +23,13 @@
   margin-bottom: 5rem;
 }
 
+.postexpress__planos-boxes > a {
+  overflow: hidden;
+  box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.15);
+}
+
 .postexpress__plano {
   background-color: var(--color-white);
-  box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
   width: 320px;
   height: 500px;
@@ -78,16 +82,26 @@
 }
 
 .postexpress__planos-boxes a:nth-child(3)::after {
-  content: "Melhor Opção!";
+  content: "Melhor \A Opção!";
+  white-space: pre;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
   position: absolute;
-  top: 40px;
-  font-size: 0.9rem;
-  font-weight: 900;
+  padding-bottom: 0.5rem;
+  width: 200px;
+  height: 100px;
+  top: -50px;
+  left: -88px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  background-color: var(--color-yellow);
+  text-shadow: 1px 1px 5px var(--color-white);
   color: var(--color-orange-strong);
   transform: rotate(-40deg);
 }
 
-.postexpress__planos-boxes a:not(.ative) {
+.postexpress__planos-boxes > a:not(.ative) {
   filter: grayscale(1);
   transition: var(--transition);
 }
@@ -97,4 +111,86 @@
   scale: 1.1;
   filter: grayscale(0);
   transition: var(--transition);
+}
+
+@media screen and (max-width: 1224px) {
+  .postexpress__planos-container {
+    padding: 0 3rem;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .postexpress__planos-boxes {
+    gap: 3rem;
+    flex-wrap: wrap;
+  }
+  .postexpress__plano {
+    width: 280px;
+    height: 490px;
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .postexpress__planos {
+    margin-top: 0;
+  }
+
+  .postexpress__planos-container > h1 {
+    margin: 2rem 0;
+  }
+
+  .postexpress__planos-boxes {
+    gap: 1.5rem;
+    flex-wrap: nowrap;
+  }
+
+  .postexpress__plano {
+    width: 200px;
+    height: 320px;
+    padding: 1rem 0;
+  }
+
+  .postexpress__plano h1 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .postexpress__plano-image {
+    margin-top: 0;
+  }
+
+  .postexpress__plano-image img {
+    width: 80px;
+  }
+
+  .postexpress__plano-valor p:nth-child(2) {
+    font-size: 2rem;
+  }
+
+  .postexpress__plano-text {
+    font-size: 0.65rem;
+    width: 90%;
+    margin: 0.5rem 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .postexpress__planos-container {
+    padding: 0 1.5rem;
+  }
+
+  .postexpress__planos-container > h1 {
+    margin: 1.5rem 0;
+    font-size: 2rem;
+  }
+
+  .postexpress__planos-boxes {
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
+
+  .postexpress__plano {
+    width: 250px;
+  }
 }

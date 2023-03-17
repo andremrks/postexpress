@@ -7,6 +7,7 @@ import {
   Beneficios,
   Planos,
   Contato,
+  Footer,
 } from "./components";
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
       <Depoimentos />
       <Planos />
       <Contato />
+      <Footer />
     </>
   );
 };

@@ -182,3 +182,106 @@
     transform: translate(0);
   }
 }
+
+@media screen and (max-width: 1224px) {
+  .postexpress__depoimentos-container {
+    padding: 0 10rem;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .postexpress__depoimentos-container {
+    padding: 0 5rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .postexpress__depoimentos-container {
+    padding: 0 3rem;
+  }
+
+  .postexpress__depoimento {
+    width: 500px;
+    height: 200px;
+    margin-bottom: 1rem;
+  }
+
+  .postexpress__depoimento-image {
+    width: 120px;
+    height: 120px;
+  }
+
+  .postexpress__depoimento-content {
+    padding: 0.5rem;
+  }
+
+  .postexpress__depoimento-content_text {
+    margin-bottom: 0.5rem;
+    margin-left: -3rem;
+  }
+
+  .postexpress__depoimento-content_text i:last-child {
+    margin-left: -3px;
+  }
+
+  .postexpress__depoimento::before {
+    width: 180px;
+    height: 180px;
+  }
+
+  .postexpress__depoimento-content_name {
+    margin-left: -20px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .postexpress__depoimentos-container {
+    padding: 0 1.5rem;
+  }
+
+  .postexpress__depoimentos-container h1 {
+    font-size: 2rem;
+  }
+
+  .postexpress__depoimentos-container > p {
+    margin-bottom: 1.5rem;
+  }
+
+  .postexpress__depoimento:nth-child(odd),
+  .postexpress__depoimento:nth-child(even) {
+    align-self: center;
+  }
+
+  .postexpress__depoimento {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 1rem 0;
+  }
+
+  .postexpress__depoimento-content {
+    margin-top: 0.5rem;
+    width: 100%;
+  }
+
+  .postexpress__depoimento-content_text {
+    margin-left: 0rem;
+  }
+
+  .postexpress__depoimento-content_name {
+    margin-left: 20px;
+  }
+
+  .postexpress__depoimento-content_name h3 {
+    font-size: 1rem;
+  }
+
+  .postexpress__depoimento-content_name p {
+    font-size: 0.85rem;
+  }
+
+  .postexpress__depoimentos-clientes::before {
+    width: 100%;
+    height: 100%;
+  }
+}
