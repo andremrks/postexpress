@@ -175,6 +175,10 @@
   .postexpress__hero-content {
     width: 100%;
   }
+  .postexpress__hero-content h1 {
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
 
   .postexpress__hero-image {
     position: relative;
