@@ -12,7 +12,7 @@ const Footer = () => {
           <img src={logo} alt="PostExpress logo" />
         </div>
         <div className="postexpress__footer-social">
-          <a href="#footer">
+          <a href="https://www.instagram.com/postexpress_/">
             <BsInstagram />
           </a>
           <a href="https://wa.me/+5513988266392">
