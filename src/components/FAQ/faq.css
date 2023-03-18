@@ -1,0 +1,46 @@
+.postexpress__faq {
+  padding: 0 12rem;
+  margin: 3rem 0;
+}
+
+.postexpress__faq h1 {
+    font-size: 2.4rem;
+    color: var(--color-blue);
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.accordion__button {
+  background-color: var(--color-white) !important;
+  color: var(--color-blue) !important;
+  padding: 1rem !important;
+}
+
+.accordion__panel {
+    padding: 1rem !important;
+    color: var(--color-black) !important;
+    font-weight: 300;
+}
+
+
+@media screen and (max-width: 1050px) {
+    .postexpress__faq {
+        padding: 0 5rem;
+      }
+  }
+
+  @media screen and (max-width: 800px) {
+    .postexpress__faq {
+        padding: 0 3rem;
+      }
+  }
+  
+  @media screen and (max-width: 550px) {
+    .postexpress__faq {
+        padding: 0 1.5rem;
+      }
+
+      .postexpress__faq h1 {
+        font-size: 2rem;
+      }
+  }

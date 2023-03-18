@@ -8,3 +8,4 @@ export { default as Beneficios } from "./Beneficios/Beneficios";
 export { default as Planos } from "./Planos/Planos";
 export { default as Contato } from "./Contato/Contato";
 export { default as Footer } from "./Footer/Footer";
+export { default as FAQ } from "./FAQ/FAQ";

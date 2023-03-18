@@ -8,6 +8,7 @@ import {
   Planos,
   Contato,
   Footer,
+  FAQ,
 } from "./components";
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
       <Depoimentos />
       <Planos />
       <Contato />
+      <FAQ />
       <Footer />
     </>
   );

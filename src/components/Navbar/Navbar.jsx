@@ -20,6 +20,9 @@ const Menu = () => (
       <a href="#planos">Planos</a>
     </p>
     <p>
+      <a href="#perguntas">Perguntas Frequentes</a>
+    </p>
+    <p>
       <a href="#contato">Fale Conosco</a>
     </p>
   </>
