@@ -92,8 +92,8 @@
     background-color: var(--color-white);
     border-radius: 5px;
     right: 5px;
-    width: 120px;
-    height: 190px;
+    width: 200px;
+    height: 300px;
     padding: 1rem 0.5rem;
   }
 
@@ -101,6 +101,7 @@
   .postexpress__navbar-container_links a {
     display: flex;
     width: 100%;
+    font-size: 1.2rem;
   }
 }
 

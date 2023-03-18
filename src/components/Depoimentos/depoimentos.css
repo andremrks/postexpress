@@ -198,6 +198,7 @@
 @media screen and (max-width: 800px) {
   .postexpress__depoimentos-container {
     padding: 0 3rem;
+    margin-bottom: 2rem;
   }
 
   .postexpress__depoimento {

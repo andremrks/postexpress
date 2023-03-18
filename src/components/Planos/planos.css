@@ -6,7 +6,7 @@
 .postexpress__planos-container {
   display: flex;
   flex-direction: column;
-  padding: 0 12rem;
+  padding: 0 8rem;
 }
 
 .postexpress__planos-container > h1 {
@@ -31,49 +31,41 @@
 .postexpress__plano {
   background-color: var(--color-white);
   border-radius: 10px;
-  width: 320px;
-  height: 500px;
-  padding: 1.5rem;
+  width: 250px;
+  height: 320px;
+  padding: 1rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: baseline;
+  justify-content: center;
 }
 
 .postexpress__plano h1 {
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   color: var(--color-blue);
-}
-
-.postexpress__plano-image {
-  margin-top: 1.5rem;
-}
-
-.postexpress__plano-image img {
-  width: 120px;
 }
 
 .postexpress__plano-valor {
   display: flex;
   align-items: baseline;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .postexpress__plano-valor p {
   color: var(--color-black);
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 .postexpress__plano-valor p:nth-child(2) {
   font-weight: 700;
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 
 .postexpress__plano-text {
   color: var(--color-black);
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   width: 90%;
-  margin: 1.5rem 0;
+  margin: 1rem 0;
 }
 
 .postexpress__planos-boxes a {
@@ -82,7 +74,7 @@
 }
 
 .postexpress__planos-boxes a:nth-child(3)::after {
-  content: "Melhor \A Opção!";
+  content: "O Mais\AVendido!";
   white-space: pre;
   display: flex;
   justify-content: center;
@@ -91,9 +83,10 @@
   padding-bottom: 0.5rem;
   width: 200px;
   height: 100px;
-  top: -50px;
+  top: -48px;
   left: -88px;
-  font-size: 0.85rem;
+  text-align: center;
+  font-size: 0.8rem;
   font-weight: 700;
   background-color: var(--color-yellow);
   text-shadow: 1px 1px 5px var(--color-white);
@@ -113,21 +106,38 @@
   transition: var(--transition);
 }
 
-@media screen and (max-width: 1224px) {
+.postexpress_plano-detalhes-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.postexpress__plano-detalhesBtn {
+  color: var(--color-orange);
+  font-size: 0.9rem;
+  margin-top: .5rem;
+}
+
+.postexpress__plano-detalhesBtn:hover {
+  color: var(--color-orange-strong);
+  transition: var(--transition);
+}
+
+@media screen and (max-width: 1300px) {
   .postexpress__planos-container {
     padding: 0 3rem;
   }
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1224px) {
   .postexpress__planos-boxes {
     gap: 3rem;
     flex-wrap: wrap;
   }
-  .postexpress__plano {
-    width: 280px;
-    height: 490px;
-    padding: 1rem;
+
+  .postexpress__planos-container {
+    padding: 0 3rem;
   }
 }
 
@@ -140,32 +150,8 @@
     margin: 2rem 0;
   }
 
-  .postexpress__planos-boxes {
-    gap: 1.5rem;
-    flex-wrap: nowrap;
-  }
-
   .postexpress__plano {
-    width: 200px;
-    height: 320px;
-    padding: 1rem 0;
-  }
-
-  .postexpress__plano h1 {
-    margin-top: 1rem;
-    font-size: 1.5rem;
-  }
-
-  .postexpress__plano-image {
-    margin-top: 0;
-  }
-
-  .postexpress__plano-image img {
-    width: 80px;
-  }
-
-  .postexpress__plano-valor p:nth-child(2) {
-    font-size: 2rem;
+    justify-content: space-around;
   }
 
   .postexpress__plano-text {
@@ -176,10 +162,6 @@
 }
 
 @media screen and (max-width: 550px) {
-  .postexpress__planos-container {
-    padding: 0 1.5rem;
-  }
-
   .postexpress__planos-container > h1 {
     margin: 1.5rem 0;
     font-size: 2rem;
