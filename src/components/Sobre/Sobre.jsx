@@ -30,7 +30,7 @@ const Sobre = () => {
             </div>
             <div className="postexpress__cta-text_valor">
               <p>R$</p>
-              <p>99</p>
+              <p>97</p>
               <p>,00</p>
             </div>
           </div>

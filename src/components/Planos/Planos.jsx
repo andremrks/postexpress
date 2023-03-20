@@ -107,7 +107,7 @@ const Planos = () => {
               <h1>Power</h1>
               <div className="postexpress__plano-valor">
                 <p>R$</p>
-                <p>575</p>
+                <p>574</p>
                 <p>,00</p>
               </div>
               <div className="postexpress__plano-buttonBox">
