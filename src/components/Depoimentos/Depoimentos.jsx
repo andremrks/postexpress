@@ -30,19 +30,29 @@ const Depoimentos = () => {
                     <FaQuoteLeft />
                   </i>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Obcaecati, cumque. Ipsam delectus aut quis! Totam fugit
-                    cumque unde explicabo error tenetur aspernatur, blanditiis
-                    voluptatem velit laborum, facere cupiditate dolor quae?
+                    Sou uma estudante de jornalismo apaixonada por compartilhar
+                    minhas ideias e pensamentos na internet. Gostaria de dizer
+                    que a Postexpress é incrível e tem me ajudado muito a criar
+                    posts criativos e envolventes para o meu público no
+                    Instagram.<br/><br/> Com a Postexpress, tenho posts visualmente
+                    atraentes e com conteúdo relevante, ajudando a aumentar meu
+                    engajamento com meu público e a atrair novos seguidores.
+                    Além disso, a ferramenta é super fácil de usar e me permite
+                    economizar tempo na criação dos meus posts.<br/><br/> Por isso,
+                    recomendo a Postexpress para todos os estudantes de
+                    jornalismo e criadores de conteúdo que desejam criar posts
+                    profissionais e de alta qualidade no Instagram. Experimente
+                    agora mesmo e veja como a ferramenta pode ajudar você a se
+                    destacar na rede social e a conquistar seu público!
                   </p>
                   <i>
                     <FaQuoteRight />
                   </i>
                 </div>
                 <div className="postexpress__depoimento-content_name">
-                  <h3>Person Name</h3>
-                  <p>Cargo</p>
-                  <p>Nome da Empresa</p>
+                  <h3>Giovanna Machado</h3>
+                  <p>Estudante de Jornalismo</p>
+                  <p>Instagram @papodefilhaemae</p>
                 </div>
               </div>
             </div>
@@ -58,19 +68,25 @@ const Depoimentos = () => {
                     <FaQuoteLeft />
                   </i>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Obcaecati, cumque. Ipsam delectus aut quis! Totam fugit
-                    cumque unde explicabo error tenetur aspernatur, blanditiis
-                    voluptatem velit laborum, facere cupiditate dolor quae?
+                    Com a Postexpress, consigo criar posts envolventes que
+                    inspiram e motivam minhas seguidoras a seguir em frente em
+                    suas jornadas pessoais e profissionais. Além disso, a
+                    ferramenta me ajuda a alcançar um público maior e a aumentar
+                    meu engajamento no Instagram.<br/><br/> Por isso, eu recomendo a
+                    Postexpress para todas as pessoas que desejam criar posts
+                    incríveis e envolventes no Instagram. Se você ainda não
+                    conhece a ferramenta, experimente agora mesmo e veja como
+                    ela pode ajudar você a alcançar seus objetivos e a se
+                    destacar na rede social!
                   </p>
                   <i>
                     <FaQuoteRight />
                   </i>
                 </div>
                 <div className="postexpress__depoimento-content_name">
-                  <h3>Person Name</h3>
-                  <p>Cargo</p>
-                  <p>Nome da Empresa</p>
+                  <h3>Vanessa Machado</h3>
+                  <p>Jornalista e Mentora</p>
+                  <p>Instagram vanessa_machado.oficial</p>
                 </div>
               </div>
             </div>

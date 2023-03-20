@@ -42,13 +42,13 @@
   cursor: pointer;
   position: relative;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   border-radius: 5px;
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.15);
   background-color: var(--color-white);
-  width: 600px;
-  height: 250px;
+  width: 650px;
+  height: 550px;
   overflow: hidden;
   margin-bottom: 3rem;
   transition: var(--transition);
@@ -63,8 +63,8 @@
   content: "";
   width: 200px;
   height: 200px;
-  bottom: -100px;
-  right: -100px;
+  bottom: -90px;
+  right: -90px;
   border-radius: 50%;
   background-color: var(--color-orange);
 }
@@ -84,13 +84,13 @@
 }
 
 .postexpress__depoimento-content {
-  width: 60%;
-  height: 100%;
+  width: 70%;
   padding: 1.5rem;
 }
 
 .postexpress__depoimento-content_text {
   display: flex;
+  width: 100%;
   margin-bottom: 1rem;
   margin-left: -2rem;
 }
@@ -107,8 +107,13 @@
 
 .postexpress__depoimento-content_text p {
   color: var(--color-black);
+  margin-left: 0.5rem;
   font-weight: 300;
   font-size: 0.9rem;
+}
+
+.postexpress__depoimento-content_name {
+  margin-left: 0.5rem;
 }
 
 .postexpress__depoimento-content_name h3 {
@@ -186,6 +191,7 @@
 @media screen and (max-width: 1224px) {
   .postexpress__depoimentos-container {
     padding: 0 10rem;
+    margin-top: 25rem;
   }
 }
 
@@ -199,11 +205,12 @@
   .postexpress__depoimentos-container {
     padding: 0 3rem;
     margin-bottom: 2rem;
+    margin-top: 0;
   }
 
   .postexpress__depoimento {
-    width: 500px;
-    height: 200px;
+    width: 520px;
+    height: 600px;
     margin-bottom: 1rem;
   }
 
@@ -217,21 +224,20 @@
   }
 
   .postexpress__depoimento-content_text {
-    margin-bottom: 0.5rem;
-    margin-left: -3rem;
+    margin: 0 0 0.5rem;
   }
 
   .postexpress__depoimento-content_text i:last-child {
     margin-left: -3px;
   }
 
+  .postexpress__depoimento-content_name {
+    margin: 1rem 0 0 2.5rem;
+  }
+
   .postexpress__depoimento::before {
     width: 180px;
     height: 180px;
-  }
-
-  .postexpress__depoimento-content_name {
-    margin-left: -20px;
   }
 }
 
@@ -255,8 +261,9 @@
 
   .postexpress__depoimento {
     flex-direction: column;
+    justify-content: space-evenly;
     width: 100%;
-    height: 100%;
+    height: 750px;
     padding: 1rem 0;
   }
 
