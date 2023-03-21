@@ -116,12 +116,30 @@
 .postexpress__plano-detalhesBtn {
   color: var(--color-orange);
   font-size: 0.9rem;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 
 .postexpress__plano-detalhesBtn:hover {
   color: var(--color-orange-strong);
   transition: var(--transition);
+}
+
+.postexpress__plano-button {
+  cursor: pointer;
+  border: 2px solid var(--color-orange-strong);
+  outline: none;
+  background: var(--color-orange-strong);
+  color: var(--color-white);
+  font-size: 1.2rem;
+  padding: 1rem;
+  border-radius: 2px;
+  transition: var(--transition);
+}
+
+.postexpress__plano-button:hover {
+  background: var(--color-white);
+  color: var(--color-orange-strong);
+  border: 2px solid var(--color-orange-strong);
 }
 
 @media screen and (max-width: 1300px) {
@@ -158,6 +176,10 @@
     font-size: 0.65rem;
     width: 90%;
     margin: 0.5rem 0;
+  }
+  .postexpress__plano-button {
+    font-size: 0.9rem;
+    padding: 0.6rem;
   }
 }
 

@@ -1,8 +1,6 @@
 import { useState } from "react";
 import Detalhes from "../Detalhes/Detalhes";
 
-import Button from "../Button/Button";
-
 import "./planos.css";
 
 const Planos = () => {
@@ -37,11 +35,19 @@ const Planos = () => {
                 <p>,00</p>
               </div>
               <div className="postexpress__plano-buttonBox">
-                <Button text="Quero Contratar!" />
+                <a
+                  href="https://www.asaas.com/c/089942085804"
+                  target="blank"
+                  rel="norreferer"
+                >
+                  <button className="postexpress__plano-button">
+                    Quero Contratar!
+                  </button>
+                </a>
               </div>
               <div className="postexpress__plano-text">
                 <p>
-                  10 artes / posts mensais enviadas para <strong>VOCÊ</strong>{" "}
+                  10 artes / posts mensais enviadas para <strong>VOCÊ</strong>
                   postar quando bem entender.
                 </p>
               </div>
@@ -74,7 +80,15 @@ const Planos = () => {
                 <p>,00</p>
               </div>
               <div className="postexpress__plano-buttonBox">
-                <Button text="Quero Contratar!" />
+              <a
+                  href="https://www.asaas.com/c/010195729180"
+                  target="blank"
+                  rel="norreferer"
+                >
+                  <button className="postexpress__plano-button">
+                    Quero Contratar!
+                  </button>
+                </a>
               </div>
               <div className="postexpress__plano-text">
                 <p>
@@ -111,7 +125,15 @@ const Planos = () => {
                 <p>,00</p>
               </div>
               <div className="postexpress__plano-buttonBox">
-                <Button text="Quero Contratar!" />
+              <a
+                  href="https://www.asaas.com/c/973353891831"
+                  target="blank"
+                  rel="norreferer"
+                >
+                  <button className="postexpress__plano-button">
+                    Quero Contratar!
+                  </button>
+                </a>
               </div>
               <div className="postexpress__plano-text">
                 <p>
@@ -149,7 +171,15 @@ const Planos = () => {
                 <p>,00</p>
               </div>
               <div className="postexpress__plano-buttonBox">
-                <Button text="Quero Contratar!" />
+              <a
+                  href="https://www.asaas.com/c/475128052339"
+                  target="blank"
+                  rel="norreferer"
+                >
+                  <button className="postexpress__plano-button">
+                    Quero Contratar!
+                  </button>
+                </a>
               </div>
               <div className="postexpress__plano-text">
                 <p>
