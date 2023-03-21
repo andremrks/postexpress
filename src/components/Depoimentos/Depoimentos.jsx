@@ -34,25 +34,38 @@ const Depoimentos = () => {
                     minhas ideias e pensamentos na internet. Gostaria de dizer
                     que a Postexpress é incrível e tem me ajudado muito a criar
                     posts criativos e envolventes para o meu público no
-                    Instagram.<br/><br/> Com a Postexpress, tenho posts visualmente
-                    atraentes e com conteúdo relevante, ajudando a aumentar meu
+                    Instagram.
+                    <br />
+                    <br /> Com a Postexpress, tenho posts visualmente atraentes
+                    e com conteúdo relevante, ajudando a aumentar meu
                     engajamento com meu público e a atrair novos seguidores.
                     Além disso, a ferramenta é super fácil de usar e me permite
-                    economizar tempo na criação dos meus posts.<br/><br/> Por isso,
-                    recomendo a Postexpress para todos os estudantes de
-                    jornalismo e criadores de conteúdo que desejam criar posts
-                    profissionais e de alta qualidade no Instagram. Experimente
-                    agora mesmo e veja como a ferramenta pode ajudar você a se
-                    destacar na rede social e a conquistar seu público!
+                    economizar tempo na criação dos meus posts.
+                    <br />
+                    <br /> Por isso, recomendo a Postexpress para todos os
+                    estudantes de jornalismo e criadores de conteúdo que desejam
+                    criar posts profissionais e de alta qualidade no Instagram.
+                    Experimente agora mesmo e veja como a ferramenta pode ajudar
+                    você a se destacar na rede social e a conquistar seu
+                    público!
                   </p>
                   <i>
                     <FaQuoteRight />
                   </i>
                 </div>
                 <div className="postexpress__depoimento-content_name">
-                  <h3>Giovanna Machado</h3>
+                  <h3>Giovanna</h3>
                   <p>Estudante de Jornalismo</p>
-                  <p>Instagram @papodefilhaemae</p>
+                  <p>
+                    Instagram{" "}
+                    <a
+                      href="https://www.instagram.com/papodefilhaemae/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <span>@papodefilhaemae</span>
+                    </a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -72,21 +85,31 @@ const Depoimentos = () => {
                     inspiram e motivam minhas seguidoras a seguir em frente em
                     suas jornadas pessoais e profissionais. Além disso, a
                     ferramenta me ajuda a alcançar um público maior e a aumentar
-                    meu engajamento no Instagram.<br/><br/> Por isso, eu recomendo a
-                    Postexpress para todas as pessoas que desejam criar posts
-                    incríveis e envolventes no Instagram. Se você ainda não
-                    conhece a ferramenta, experimente agora mesmo e veja como
-                    ela pode ajudar você a alcançar seus objetivos e a se
-                    destacar na rede social!
+                    meu engajamento no Instagram.
+                    <br />
+                    <br /> Por isso, eu recomendo a Postexpress para todas as
+                    pessoas que desejam criar posts incríveis e envolventes no
+                    Instagram. Se você ainda não conhece a ferramenta,
+                    experimente agora mesmo e veja como ela pode ajudar você a
+                    alcançar seus objetivos e a se destacar na rede social!
                   </p>
                   <i>
                     <FaQuoteRight />
                   </i>
                 </div>
                 <div className="postexpress__depoimento-content_name">
-                  <h3>Vanessa Machado</h3>
+                  <h3>Vanessa</h3>
                   <p>Jornalista e Mentora</p>
-                  <p>Instagram vanessa_machado.oficial</p>
+                  <p>
+                    Instagram{" "}
+                    <a
+                      href="https://instagram.com/vanessa_machado.oficial"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <span>@vanessa_machado.oficial</span>
+                    </a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -102,19 +125,37 @@ const Depoimentos = () => {
                     <FaQuoteLeft />
                   </i>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Obcaecati, cumque. Ipsam delectus aut quis! Totam fugit
-                    cumque unde explicabo error tenetur aspernatur, blanditiis
-                    voluptatem velit laborum, facere cupiditate dolor quae?
+                    Eu fiquei impressionada com a qualidade dos serviços da
+                    PostExpress na criação de artes para o meu Instagram. Elas
+                    conseguiram capturar perfeitamente a minha visão e
+                    transformá-la em uma arte visualmente atraente e
+                    profissional.
+                    <br />
+                    <br /> Além disso, a equipe foi extremamente ágil em atender
+                    às minhas demandas e garantir que a arte fosse entregue
+                    dentro do prazo estabelecido.
+                    <br />
+                    <br /> Eu recomendo altamente a PostExpress para qualquer
+                    pessoa que esteja procurando por um serviço de criação de
+                    artes no Instagram de qualidade e confiável.
                   </p>
                   <i>
                     <FaQuoteRight />
                   </i>
                 </div>
                 <div className="postexpress__depoimento-content_name">
-                  <h3>Person Name</h3>
-                  <p>Cargo</p>
-                  <p>Nome da Empresa</p>
+                  <h3>Aline</h3>
+                  <p>Proprietária Sofá Clean</p>
+                  <p>
+                    Instagram{" "}
+                    <a
+                      href="https://www.instagram.com/sofaclean.santos/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <span>@sofaclean.santos</span>
+                    </a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -130,19 +171,34 @@ const Depoimentos = () => {
                     <FaQuoteLeft />
                   </i>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Obcaecati, cumque. Ipsam delectus aut quis! Totam fugit
-                    cumque unde explicabo error tenetur aspernatur, blanditiis
-                    voluptatem velit laborum, facere cupiditate dolor quae?
+                    Fiquei extremamente satisfeito com a profissionalidade e
+                    eficiência da empresa em transformar nossas ideias em artes
+                    criativas e atrativas para o público.<br/><br/> A proposta da
+                    PostExpress ágil e eficiente, com soluções rápidas. A
+                    empresa se destacou pelo comprometimento em entregar
+                    trabalhos de alta qualidade e dentro do prazo estabelecido.<br/><br/>
+                    Não hesito em recomendar a PostExpress para qualquer pessoa
+                    ou empresa que esteja procurando por um serviço de criação
+                    de artes profissional e confiável. Parabéns pela excelência
+                    em seus serviços e pelo trabalho dedicado e competente.
                   </p>
                   <i>
                     <FaQuoteRight />
                   </i>
                 </div>
                 <div className="postexpress__depoimento-content_name">
-                  <h3>Person Name</h3>
-                  <p>Cargo</p>
-                  <p>Nome da Empresa</p>
+                  <h3>Felipe</h3>
+                  <p>Co-Fundador da Conta Escola</p>
+                  <p>
+                    Instagram{" "}
+                    <a
+                      href="https://instagram.com/contaescola_"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <span>@contaescola_</span>
+                    </a>
+                  </p>
                 </div>
               </div>
             </div>

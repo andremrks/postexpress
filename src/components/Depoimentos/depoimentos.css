@@ -127,6 +127,15 @@
   font-size: 0.9rem;
 }
 
+.postexpress__depoimento-content_name span {
+  color: var(--color-black);
+}
+
+.postexpress__depoimento-content_name span:hover {
+  color: var(--color-orange-strong);
+  transition: var(--transition);
+}
+
 .postexpress__depoimento:nth-child(odd) {
   align-self: flex-start;
 }
