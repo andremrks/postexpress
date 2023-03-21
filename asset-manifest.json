@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/postexpress/static/css/main.a5d9b3f5.css",
-    "main.js": "/postexpress/static/js/main.8989f1d0.js",
+    "main.css": "/postexpress/static/css/main.0f0c4199.css",
+    "main.js": "/postexpress/static/js/main.0197d453.js",
     "static/media/depoimento1.png": "/postexpress/static/media/depoimento1.2f15144724134490b98f.png",
     "static/media/depoimento2.png": "/postexpress/static/media/depoimento2.f2667ed2c9ef77ec5f4f.png",
     "static/media/depoimento4.png": "/postexpress/static/media/depoimento4.af59099b38bc178f196f.png",
@@ -11,11 +11,11 @@
     "static/media/logoImg.png": "/postexpress/static/media/logoImg.2c9e11a5b871828814fe.png",
     "static/media/logoFullBlue.png": "/postexpress/static/media/logoFullBlue.652231b488944d238ed5.png",
     "index.html": "/postexpress/index.html",
-    "main.a5d9b3f5.css.map": "/postexpress/static/css/main.a5d9b3f5.css.map",
-    "main.8989f1d0.js.map": "/postexpress/static/js/main.8989f1d0.js.map"
+    "main.0f0c4199.css.map": "/postexpress/static/css/main.0f0c4199.css.map",
+    "main.0197d453.js.map": "/postexpress/static/js/main.0197d453.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5d9b3f5.css",
-    "static/js/main.8989f1d0.js"
+    "static/css/main.0f0c4199.css",
+    "static/js/main.0197d453.js"
   ]
 }
