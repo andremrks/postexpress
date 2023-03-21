@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/postexpress/static/css/main.c130bad7.css",
-    "main.js": "/postexpress/static/js/main.4b7c76e8.js",
-    "static/media/depoimento3.png": "/postexpress/static/media/depoimento3.17766f26b4e1c2877dfb.png",
-    "static/media/depoimento1.png": "/postexpress/static/media/depoimento1.ec21448d6d6284f7c841.png",
-    "static/media/depoimento4.png": "/postexpress/static/media/depoimento4.4f6bc4fbe73444cc223b.png",
+    "main.css": "/postexpress/static/css/main.a5d9b3f5.css",
+    "main.js": "/postexpress/static/js/main.8989f1d0.js",
+    "static/media/depoimento1.png": "/postexpress/static/media/depoimento1.2f15144724134490b98f.png",
     "static/media/depoimento2.png": "/postexpress/static/media/depoimento2.f2667ed2c9ef77ec5f4f.png",
+    "static/media/depoimento4.png": "/postexpress/static/media/depoimento4.af59099b38bc178f196f.png",
+    "static/media/depoimento3.png": "/postexpress/static/media/depoimento3.f1219e5622394ed25204.png",
     "static/media/chart2.png": "/postexpress/static/media/chart2.a61b61df090f871ce5f6.png",
     "static/media/porque.png": "/postexpress/static/media/porque.39bc2b8e6f6eb96a162b.png",
     "static/media/logoImg.png": "/postexpress/static/media/logoImg.2c9e11a5b871828814fe.png",
     "static/media/logoFullBlue.png": "/postexpress/static/media/logoFullBlue.652231b488944d238ed5.png",
     "index.html": "/postexpress/index.html",
-    "main.c130bad7.css.map": "/postexpress/static/css/main.c130bad7.css.map",
-    "main.4b7c76e8.js.map": "/postexpress/static/js/main.4b7c76e8.js.map"
+    "main.a5d9b3f5.css.map": "/postexpress/static/css/main.a5d9b3f5.css.map",
+    "main.8989f1d0.js.map": "/postexpress/static/js/main.8989f1d0.js.map"
   },
   "entrypoints": [
-    "static/css/main.c130bad7.css",
-    "static/js/main.4b7c76e8.js"
+    "static/css/main.a5d9b3f5.css",
+    "static/js/main.8989f1d0.js"
   ]
 }
