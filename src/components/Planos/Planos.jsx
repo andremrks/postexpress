@@ -36,7 +36,7 @@ const Planos = () => {
               </div>
               <div className="postexpress__plano-buttonBox">
                 <a
-                  href="https://www.asaas.com/c/089942085804"
+                  href="https://pay.kiwify.com.br/ktfMZFe"
                   target="blank"
                   rel="norreferer"
                 >
@@ -80,8 +80,8 @@ const Planos = () => {
                 <p>,00</p>
               </div>
               <div className="postexpress__plano-buttonBox">
-              <a
-                  href="https://www.asaas.com/c/010195729180"
+                <a
+                  href="https://pay.kiwify.com.br/CLd0qEb"
                   target="blank"
                   rel="norreferer"
                 >
@@ -125,8 +125,8 @@ const Planos = () => {
                 <p>,00</p>
               </div>
               <div className="postexpress__plano-buttonBox">
-              <a
-                  href="https://www.asaas.com/c/973353891831"
+                <a
+                  href="https://pay.kiwify.com.br/pOpABzc"
                   target="blank"
                   rel="norreferer"
                 >
@@ -171,8 +171,8 @@ const Planos = () => {
                 <p>,00</p>
               </div>
               <div className="postexpress__plano-buttonBox">
-              <a
-                  href="https://www.asaas.com/c/475128052339"
+                <a
+                  href="https://pay.kiwify.com.br/LP0y5Vs"
                   target="blank"
                   rel="norreferer"
                 >
