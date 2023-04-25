@@ -9,9 +9,7 @@ const Contato = () => {
           <form className="postexpress__contato-form">
             <input type="text" placeholder="Nome" required />
             <input type="email" placeholder="Email" required />
-            <input type="text" placeholder="Whatsapp" required />
-            <input type="text" placeholder="Instagram" required />
-            <textarea placeholder="Escreva sua mensagem" />
+            <input type="text" placeholder="Telefone" required />
             <button>Enviar</button>
           </form>
         </div>
