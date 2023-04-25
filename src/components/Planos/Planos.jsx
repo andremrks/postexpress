@@ -18,7 +18,7 @@ const Planos = () => {
         <div className="postexpress__planos-boxes">
           <a
             href="#plan1"
-            onClick={() => setActivePlan("#plan1")}
+            onMouseOver={() => setActivePlan("#plan1")}
             className={activePlan === "#plan1" ? "active" : ""}
           >
             <Detalhes
@@ -63,7 +63,7 @@ const Planos = () => {
           </a>
           <a
             href="#plan2"
-            onClick={() => setActivePlan("#plan2")}
+            onMouseOver={() => setActivePlan("#plan2")}
             className={activePlan === "#plan2" ? "active" : ""}
           >
             <Detalhes
@@ -108,7 +108,7 @@ const Planos = () => {
           </a>
           <a
             href="#plan3"
-            onClick={() => setActivePlan("#plan3")}
+            onMouseOver={() => setActivePlan("#plan3")}
             className={activePlan === "#plan3" ? "active" : ""}
           >
             <Detalhes
@@ -154,7 +154,7 @@ const Planos = () => {
           </a>
           <a
             href="#plan4"
-            onClick={() => setActivePlan("#plan4")}
+            onMouseOver={() => setActivePlan("#plan4")}
             className={activePlan === "#plan4" ? "active" : ""}
           >
             <Detalhes
